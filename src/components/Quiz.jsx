@@ -82,9 +82,10 @@ function Quiz() {
             </div>
 
             <div className="buttons">
-              <button id="prev-button" onClick={previousQuestion}>
+              {/* TODO: Add functionality for Previous button */}
+              {/* <button id="prev-button" onClick={previousQuestion}>
                 Previous
-              </button>
+              </button> */}
               <button id="restart-button" onClick={resetAll}>
                 Restart
               </button>

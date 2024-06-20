@@ -47,27 +47,24 @@ button{
 
 .buttons{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 20px;
+}
+
+#prev-button, #next-button, #restart-button{
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
 }
 
 #prev-button{
     background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    font-weight: bold;
 }
 
 #next-button{
     background-color: green;
-    color: white;
-    padding: 10px 20px;
-    font-weight: bold;
 }
 
 #restart-button{
     background-color:red;
-    color: white;
-    padding: 10px 20px;
-    font-weight: bold;
 }
