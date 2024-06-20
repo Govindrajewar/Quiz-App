@@ -45,9 +45,29 @@ button{
     cursor: pointer;
 }
 
-#next-button{
-    background-color: rgb(66, 77, 198);
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#prev-button{
+    background-color: blue;
     color: white;
     padding: 10px 20px;
-    margin: 5% 45%;
+    font-weight: bold;
+}
+
+#next-button{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+#restart-button{
+    background-color:red;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
 }

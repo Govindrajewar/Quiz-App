@@ -24,6 +24,15 @@ function Quiz() {
     }
   };
 
+  const previousQuestion = () => {
+    if(currentQuestion >= 1){
+      setCurrentQuestion(currentQuestion - 1);
+      setClickedOption(0);
+    } else {
+      alert("This is the first question");
+    }
+  }
+
   const updateScore = () => {
     if (clickedOption === QuizData[currentQuestion].correctAnswer) {
       setScore(score + 1);
@@ -72,9 +81,17 @@ function Quiz() {
               })}
             </div>
 
-            <button id="next-button" onClick={changeQuestion}>
-              Next
-            </button>
+            <div className="buttons">
+              <button id="prev-button" onClick={previousQuestion}>
+                Previous
+              </button>
+              <button id="restart-button" onClick={resetAll}>
+                Restart
+              </button>
+              <button id="next-button" onClick={changeQuestion}>
+                Next
+              </button>
+            </div>
           </div>
         </>
       )}
