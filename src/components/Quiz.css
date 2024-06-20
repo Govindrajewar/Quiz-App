@@ -1,0 +1,49 @@
+.quiz{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 60vw;
+    padding: 10px;
+    background-color: white;
+}
+
+.question {
+    margin-top: 10px 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px solid black;
+}
+
+.option {
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    text-align: start;
+    border: 1px solid black;
+}
+
+.option:hover{
+    background-color: #ccc;
+}
+
+button{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#next-button{
+    background-color: rgb(66, 77, 198);
+    color: white;
+    padding: 10px 20px;
+    margin: 5% 45%;
+}
